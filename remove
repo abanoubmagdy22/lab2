@@ -1,0 +1,7 @@
+Delete a branch with git branch -d <branch>.
+For example: git branch -d fix/authentication
+
+
+
+git push <remote> --delete <branch>.
+For example: git push origin --delete fix/authentication
