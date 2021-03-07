@@ -1,30 +1,29 @@
-# foobar
-foobar is apython libarry or dealing with words Pluralizabion
+# Foobar
 
-## installation
+Foobar is a Python library for dealing with word pluralization.
 
-use the packagge manager pip 
-  to install foobar
+## Installation
 
-sh
- pip install foobar
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+bash
+pip install foobar
 
 
-## <span style="color:red"> Import</span> foobar .
+## Usage
 
-foobar. ploralize(<span style="color:green"> 'word'</span> )  <span style="color:gray"> #return'word'</span>
+python
+import foobar
 
-foobar. ploralize(<span style="color:green"> 'word'</span> )  <span style="color:gray"> #return'word'</span>
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
 
-foobar. ploralize(<span style="color:green"> 'word'</span> )  <span style="color:gray"> #return'word'</span>
 
-# contribute
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-pull requests are welcom .for major changes ,pleae open an issue first to discuss what you would like to change .
+Please make sure to update tests as appropriate.
 
-please make sure to update tests as appropriate .
-## license 
-
-<p style="color:lightblue"> MIT</p>
-
-<img src="3.JPG">
+## License
+[MIT](https://choosealicense.com/licenses/mit/) 
